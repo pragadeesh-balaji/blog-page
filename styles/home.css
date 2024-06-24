@@ -1,0 +1,20 @@
+@import "./global.css";
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3vw 1fr min-content;
+}
+
+.header {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  box-shadow: var(--box-shadow);
+  background-color: aqua;
+}
+
+.footer {
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  background-color: blue;
+}

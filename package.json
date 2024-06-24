@@ -1,0 +1,14 @@
+{
+  "name": "vanilla-backend",
+  "version": "1.0.0",
+  "description": "Plain node js application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "author": "Pragadeesh Balaji",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10"
+  }
+}
